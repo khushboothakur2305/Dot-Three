@@ -16,6 +16,13 @@ import { FooterComponent } from './Navigation/footer/footer.component';
 import { HeaderComponent } from './Navigation/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { ApartmentComponent } from './projects/architecture/apartment/apartment.component';
+import { BunglowComponent } from './projects/architecture/bunglow/bunglow.component';
+import { CafeComponent } from './projects/architecture/cafe/cafe.component';
+import { DiningSetComponent } from './projects/furniture-module/dining-set/dining-set.component';
+import { SingleUnitComponent } from './projects/furniture-module/single-unit/single-unit.component';
+import { SofaComponent } from './projects/furniture-module/sofa/sofa.component';
+import { StorageUnitComponent } from './projects/furniture-module/storage-unit/storage-unit.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +32,14 @@ import {MatIconModule} from '@angular/material/icon';
     InteriorComponent,
     FurnitureModuleComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    ApartmentComponent,
+    BunglowComponent,
+    CafeComponent,
+    DiningSetComponent,
+    SingleUnitComponent,
+    SofaComponent,
+    StorageUnitComponent
   ],
   imports: [
     BrowserModule,
