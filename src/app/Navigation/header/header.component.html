@@ -1,1 +1,66 @@
-<p>header works!</p>
+<mat-toolbar style="background-color:black;">
+  <div fxHide.gt-md>
+    <button>
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <div>
+    <a
+      style="
+        font-size: xx-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      "
+      routerLink="/Home"
+    >
+     Dot. Three</a
+    >
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.lt-md>
+    <ul fxLayout class="navigationbar" fxLayoutGap="40px">
+      <li>
+        <a
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            font-size: x-large;
+          "
+          routerLink="/Home"
+          >Home
+        </a>
+      </li>
+      <li>
+        <a
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            font-size: x-large;
+          "
+          routerLink="/ProductsDetails"
+          >Projects</a
+        >
+      </li>
+      <li>
+        <a
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            font-size: x-large;
+          "
+          routerLink="/about"
+          >About Us</a
+        >
+      </li>
+      <li>
+        <a
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            font-size: x-large;
+          "
+          routerLink="/contactus"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>

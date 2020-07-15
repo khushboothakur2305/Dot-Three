@@ -15,6 +15,7 @@ import { FurnitureModuleComponent } from './ImageSlider/furniture-module/furnitu
 import { FooterComponent } from './Navigation/footer/footer.component';
 import { HeaderComponent } from './Navigation/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     FlexLayoutModule,
     NgImageSliderModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
