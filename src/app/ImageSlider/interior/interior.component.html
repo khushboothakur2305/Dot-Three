@@ -1,0 +1,15 @@
+<div fxLayout="column" fxLayoutAlign="center center" fxHide.lt-md>
+  <h1 class="heading">INTERIOR</h1>
+  <br />
+
+  <div style="width: 80%; height: 70%; padding-top: 50px;">
+    <ng-image-slider
+      [images]="imageObject"
+      [infinite]="true"
+      [autoSlide]="1"
+      [imageSize]="{ width: '33%', height: '50%' }"
+      slideImage="1"
+      #nav
+    ></ng-image-slider>
+  </div>
+</div>
