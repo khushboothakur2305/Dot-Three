@@ -12,7 +12,9 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { ArchitecturalComponent } from './ImageSlider/architectural/architectural.component';
 import { InteriorComponent } from './ImageSlider/interior/interior.component';
 import { FurnitureModuleComponent } from './ImageSlider/furniture-module/furniture-module.component';
-
+import { FooterComponent } from './Navigation/footer/footer.component';
+import { HeaderComponent } from './Navigation/header/header.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { FurnitureModuleComponent } from './ImageSlider/furniture-module/furnitu
     OurProjectsComponent,
     ArchitecturalComponent,
     InteriorComponent,
-    FurnitureModuleComponent
+    FurnitureModuleComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,8 @@ import { FurnitureModuleComponent } from './ImageSlider/furniture-module/furnitu
     BrowserAnimationsModule,
     MatCardModule,
     FlexLayoutModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
