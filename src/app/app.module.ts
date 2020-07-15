@@ -23,6 +23,14 @@ import { DiningSetComponent } from './projects/furniture-module/dining-set/dinin
 import { SingleUnitComponent } from './projects/furniture-module/single-unit/single-unit.component';
 import { SofaComponent } from './projects/furniture-module/sofa/sofa.component';
 import { StorageUnitComponent } from './projects/furniture-module/storage-unit/storage-unit.component';
+import { TvUnitComponent } from './projects/furniture-module/tv-unit/tv-unit.component';
+import { WallHungSofaComponent } from './projects/furniture-module/wall-hung-sofa/wall-hung-sofa.component';
+import { BarComponent } from './projects/interior/bar/bar.component';
+import { BedroomComponent } from './projects/interior/bedroom/bedroom.component';
+import { DeskComponent } from './projects/interior/desk/desk.component';
+import { Desk2Component } from './projects/interior/desk2/desk2.component';
+import { KitchenComponent } from './projects/interior/kitchen/kitchen.component';
+import { ShowroomComponent } from './projects/interior/showroom/showroom.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +47,15 @@ import { StorageUnitComponent } from './projects/furniture-module/storage-unit/s
     DiningSetComponent,
     SingleUnitComponent,
     SofaComponent,
-    StorageUnitComponent
+    StorageUnitComponent,
+    TvUnitComponent,
+    WallHungSofaComponent,
+    BarComponent,
+    BedroomComponent,
+    DeskComponent,
+    Desk2Component,
+    KitchenComponent,
+    ShowroomComponent
   ],
   imports: [
     BrowserModule,
