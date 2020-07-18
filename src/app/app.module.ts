@@ -31,6 +31,8 @@ import { DeskComponent } from './projects/interior/desk/desk.component';
 import { Desk2Component } from './projects/interior/desk2/desk2.component';
 import { KitchenComponent } from './projects/interior/kitchen/kitchen.component';
 import { ShowroomComponent } from './projects/interior/showroom/showroom.component';
+import { AboutUsComponent } from './about/about-us/about-us.component';
+import { AboutDeveloperComponent } from './about/about-developer/about-developer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,7 +57,9 @@ import { ShowroomComponent } from './projects/interior/showroom/showroom.compone
     DeskComponent,
     Desk2Component,
     KitchenComponent,
-    ShowroomComponent
+    ShowroomComponent,
+    AboutUsComponent,
+    AboutDeveloperComponent
   ],
   imports: [
     BrowserModule,
