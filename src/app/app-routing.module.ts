@@ -17,6 +17,8 @@ import { DiningSetComponent } from './projects/furniture-module/dining-set/dinin
 import { CafeComponent } from './projects/architecture/cafe/cafe.component';
 import { BunglowComponent } from './projects/architecture/bunglow/bunglow.component';
 import { ApartmentComponent } from './projects/architecture/apartment/apartment.component';
+import { AboutUsComponent } from './about/about-us/about-us.component';
+import { AboutDeveloperComponent } from './about/about-developer/about-developer.component';
 
 const routes: Routes = [
   { path: 'home', component: HomePageComponent },
@@ -35,7 +37,9 @@ const routes: Routes = [
   {path:'dining-set',component:DiningSetComponent},
   {path:'cafe',component:CafeComponent},
   {path:'bunglow',component:BunglowComponent},
-  {path:'apartment',component:ApartmentComponent}
+  {path:'apartment',component:ApartmentComponent},
+  {path:'about', component:AboutUsComponent},
+  {path:'developer',component:AboutDeveloperComponent}
 ];
 
 @NgModule({
