@@ -19,7 +19,9 @@ import { BunglowComponent } from './projects/architecture/bunglow/bunglow.compon
 import { ApartmentComponent } from './projects/architecture/apartment/apartment.component';
 import { AboutUsComponent } from './about/about-us/about-us.component';
 import { AboutDeveloperComponent } from './about/about-developer/about-developer.component';
-
+import { ArchitectureModuleComponent } from './projects/architecture/architecture-module/architecture-module.component';
+import { InteriorModuleComponent } from './projects/interior/interior-module/interior-module.component';
+import { FurnitureModuleComponent } from "./projects/furniture-module/furniture-module/furniture-module.component";
 const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'our-projects', component: OurProjectsComponent },
@@ -39,7 +41,10 @@ const routes: Routes = [
   {path:'bunglow',component:BunglowComponent},
   {path:'apartment',component:ApartmentComponent},
   {path:'about', component:AboutUsComponent},
-  {path:'developer',component:AboutDeveloperComponent}
+  {path:'developer',component:AboutDeveloperComponent},
+  {path:'architecture-module',component:ArchitectureModuleComponent},
+  {path:'interior-module',component:InteriorModuleComponent},
+  {path:'furniture-module',component:FurnitureModuleComponent}
 ];
 
 @NgModule({
