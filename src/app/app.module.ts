@@ -33,6 +33,10 @@ import { AboutDeveloperComponent } from './about/about-developer/about-developer
 import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
 import { ArchitectureModuleComponent } from './projects/architecture/architecture-module/architecture-module.component';
 import { InteriorModuleComponent } from './projects/interior/interior-module/interior-module.component';
+import { FurnitureModuleComponent } from "./projects/furniture-module/furniture-module/furniture-module.component";
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import {MatListModule} from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +63,9 @@ import { InteriorModuleComponent } from './projects/interior/interior-module/int
     AboutDeveloperComponent,
     EnquirybuttonComponent,
     ArchitectureModuleComponent,
-    InteriorModuleComponent
+    InteriorModuleComponent,
+    FurnitureModuleComponent,
+    SidenavListComponent,
   ],
   imports: [
     BrowserModule,
@@ -69,7 +75,9 @@ import { InteriorModuleComponent } from './projects/interior/interior-module/int
     FlexLayoutModule,
     NgImageSliderModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
