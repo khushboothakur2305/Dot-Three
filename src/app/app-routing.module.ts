@@ -22,6 +22,7 @@ import { AboutDeveloperComponent } from './about/about-developer/about-developer
 import { ArchitectureModuleComponent } from './projects/architecture/architecture-module/architecture-module.component';
 import { InteriorModuleComponent } from './projects/interior/interior-module/interior-module.component';
 import { FurnitureModuleComponent } from "./projects/furniture-module/furniture-module/furniture-module.component";
+import { ContactusComponent } from './contactus/contactus.component';
 const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'our-projects', component: OurProjectsComponent },
@@ -44,7 +45,8 @@ const routes: Routes = [
   {path:'developer',component:AboutDeveloperComponent},
   {path:'architecture-module',component:ArchitectureModuleComponent},
   {path:'interior-module',component:InteriorModuleComponent},
-  {path:'furniture-module',component:FurnitureModuleComponent}
+  {path:'furniture-module',component:FurnitureModuleComponent},
+  {path:'contactus' , component:ContactusComponent}
 ];
 
 @NgModule({

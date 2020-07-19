@@ -37,6 +37,9 @@ import { FurnitureModuleComponent } from "./projects/furniture-module/furniture-
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import {MatListModule} from '@angular/material/list';
+import { ContactusComponent } from './contactus/contactus.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,6 +69,7 @@ import {MatListModule} from '@angular/material/list';
     InteriorModuleComponent,
     FurnitureModuleComponent,
     SidenavListComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
@@ -77,7 +81,9 @@ import {MatListModule} from '@angular/material/list';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatButtonModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
