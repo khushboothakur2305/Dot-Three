@@ -13,12 +13,12 @@ export class ApartmentComponent implements OnInit {
   }
   imageObject=[
     {
-      image: 'assets/Images/architectural/apartment/Ap1.jpg',
-      thumbImage: 'assets/Images/architectural/apartment/Ap1.jpg',
+      image: 'assets/Images/apartment/Ap1.jpg',
+      thumbImage: 'assets/Images/apartment/Ap1.jpg',
     },
     {
-      image: 'assets/Images/architectural/apartment/Ap2.jpg',
-      thumbImage: 'assets/Images/architectural/apartment/Ap2.jpg',
+      image: 'assets/Images/apartment/Ap2.jpg',
+      thumbImage: 'assets/Images/apartment/Ap2.jpg',
     },
   ]
 }

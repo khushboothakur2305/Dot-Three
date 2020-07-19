@@ -34,6 +34,8 @@ import { ShowroomComponent } from './projects/interior/showroom/showroom.compone
 import { AboutUsComponent } from './about/about-us/about-us.component';
 import { AboutDeveloperComponent } from './about/about-developer/about-developer.component';
 import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
+import { ArchitectureModuleComponent } from './projects/architecture/architecture-module/architecture-module.component';
+import { InteriorModuleComponent } from './projects/interior/interior-module/interior-module.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,7 +63,9 @@ import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.co
     ShowroomComponent,
     AboutUsComponent,
     AboutDeveloperComponent,
-    EnquirybuttonComponent
+    EnquirybuttonComponent,
+    ArchitectureModuleComponent,
+    InteriorModuleComponent
   ],
   imports: [
     BrowserModule,

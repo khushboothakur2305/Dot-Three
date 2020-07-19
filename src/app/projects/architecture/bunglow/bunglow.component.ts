@@ -13,12 +13,12 @@ export class BunglowComponent implements OnInit {
   }
   imageObject=[
     {
-      image: 'assets/Images/architectural/bungalow/B1.jpg',
-      thumbImage: 'assets/Images/architectural/bungalow/B1.jpg',
+      image: 'assets/Images/bungalow/b1.jpg',
+      thumbImage: 'assets/Images/bungalow/b1.jpg',
     },
     {
-      image: 'assets/Images/architectural/bungalow/B2.jpg',
-      thumbImage: 'assets/Images/architectural/bungalow/B2.jpg',
+      image: 'assets/Images/bungalow/b2.jpg',
+      thumbImage: 'assets/Images/bungalow/b2.jpg',
     },
   ]
 

@@ -13,12 +13,12 @@ export class TvUnitComponent implements OnInit {
   }
   imageObject=[
     {
-      image: 'assets/Images/furniture module/tv unit/tu1.jpg',
-      thumbImage: 'assets/Images/furniture module/tv unit/tu1.jpg',
+      image: 'assets/Images/tv unit/tv1.jpg',
+      thumbImage: 'assets/Images/tv unit/tv1.jpg',
     },
     {
-      image: 'assets/Images/furniture module/tv unit/tu2.jpg',
-      thumbImage: 'assets/Images/furniture module/tv unit/tu2.jpg',
+      image: 'assets/Images/tv unit/tv2.jpg',
+      thumbImage: 'assets/Images/tv unit/tv2.jpg',
     },
   ]
 }
