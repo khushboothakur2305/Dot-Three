@@ -6,3 +6,12 @@ mat-card{
   width: 80%;
   height: 100%;
 }
+.new{
+  width: 130px;
+  height: 195px;
+  background: url("/assets/Images/tv unit/tv1.jpg") no-repeat;
+  display: inline-block;
+}
+.new:hover {
+  background: url("/assets/Images/sofa set/sofa.jpg") no-repeat;
+}
