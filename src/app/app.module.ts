@@ -33,6 +33,7 @@ import { KitchenComponent } from './projects/interior/kitchen/kitchen.component'
 import { ShowroomComponent } from './projects/interior/showroom/showroom.component';
 import { AboutUsComponent } from './about/about-us/about-us.component';
 import { AboutDeveloperComponent } from './about/about-developer/about-developer.component';
+import { EnquirybuttonComponent } from './Enquiry/enquirybutton/enquirybutton.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +60,8 @@ import { AboutDeveloperComponent } from './about/about-developer/about-developer
     KitchenComponent,
     ShowroomComponent,
     AboutUsComponent,
-    AboutDeveloperComponent
+    AboutDeveloperComponent,
+    EnquirybuttonComponent
   ],
   imports: [
     BrowserModule,

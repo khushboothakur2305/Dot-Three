@@ -11,5 +11,14 @@ export class ApartmentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  imageObject=[
+    {
+      image: 'assets/Images/architectural/apartment/Ap1.jpg',
+      thumbImage: 'assets/Images/architectural/apartment/Ap1.jpg',
+    },
+    {
+      image: 'assets/Images/architectural/apartment/Ap2.jpg',
+      thumbImage: 'assets/Images/architectural/apartment/Ap2.jpg',
+    },
+  ]
 }
