@@ -11,5 +11,14 @@ export class TvUnitComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  imageObject=[
+    {
+      image: 'assets/Images/furniture module/tv unit/tu1.jpg',
+      thumbImage: 'assets/Images/furniture module/tv unit/tu1.jpg',
+    },
+    {
+      image: 'assets/Images/furniture module/tv unit/tu2.jpg',
+      thumbImage: 'assets/Images/furniture module/tv unit/tu2.jpg',
+    },
+  ]
 }

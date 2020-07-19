@@ -12,4 +12,14 @@ export class WallHungSofaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  imageObject=[
+    {
+      image: 'assets/Images/furniture module/wall hung sofa/ws1.jpg',
+      thumbImage: 'assets/Images/furniture module/wall hung sofa/ws1.jpg',
+    },
+    {
+      image: 'assets/Images/furniture module/wall hung sofa/ws2.jpg',
+      thumbImage: 'assets/Images/furniture module/wall hung sofa/ws2.jpg',
+    },
+  ]
 }

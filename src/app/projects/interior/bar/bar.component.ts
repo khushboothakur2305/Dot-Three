@@ -11,5 +11,19 @@ export class BarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  imageObject=[
+    {
+      image: 'assets/Images/interior/bar/bar1.jpg',
+      thumbImage: 'assets/Images/interior/bar/bar1.jpg',
+    },
+    {
+      image: 'assets/Images/interior/bar/bar2.jpg',
+      thumbImage: 'assets/Images/interior/bar/bar2.jpg',
+    },
+    {
+      image: 'assets/Images/interior/bar/bar3.jpg',
+      thumbImage: 'assets/Images/interior/bar/bar3.jpg',
+    },
+  ]
 
 }
