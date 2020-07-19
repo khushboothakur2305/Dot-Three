@@ -1,17 +1,15 @@
 mat-card{
-  width: 23%;
-  height: 100%;
+  width: 400px;
+  height:400px;
   }
 .cardmob{
   width: 80%;
   height: 100%;
 }
-.new{
-  width: 130px;
-  height: 195px;
-  background: url("/assets/Images/tv unit/tv1.jpg") no-repeat;
-  display: inline-block;
+#my-img:hover {
+  content: url('/assets/Images/home/icon/plus.png');
 }
-.new:hover {
-  background: url("/assets/Images/sofa set/sofa.jpg") no-repeat;
+.heading{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
 }
